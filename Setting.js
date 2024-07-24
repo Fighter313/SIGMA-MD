@@ -44,7 +44,7 @@ global.audio = '' ;
 global.video = '' ;
 global.lol   = 'GataDios'
 global.cali  = `lykoUzNh`
-global.devs  = "923466319114";
+global.devs  = "923308363433";
 global.inrl_key = `inrl-bot-mdaqz3ks6md7`;
 global.inrl_api = `https://upper-romy-inrl-bot.koyeb.app/`;
 global.blockJids = process.env.BLOCK_JID ||'120363169665426586@g.us' ;
@@ -58,15 +58,15 @@ global.maher_api = process.env.MAHER_API || `https://api.maher-zubair.tech/` ; /
 
 
 //===========================[COMPULSORY VARIABLES]================================
-global.owner = process.env.OWNER_NUMBER  || '923466319114' ;  // ADD YOUR NUMBER WITHOUT +
+global.owner = process.env.OWNER_NUMBER  || '923308363433' ;  // ADD YOUR NUMBER WITHOUT +
 global.mongodb = process.env.MONGODB_URI || "" ;            // PUT MONGODB KEY HERE, WITHOUT MONGODB YOUR BOT WILL NOT RUN
 global.timezone  = process.env.TIME_ZONE || 'Asia/Karachi' // ADD CORRECT TIMEZONE OR LEAVE IT SAME , OTHERWISE YOU GET ERROS
 //=================================================================================
 
 
 //======================[YOUR CHOICE, CHANGE OR LEAVE IT SAME]=====================
-global.sudo  =  process.env.SUDO || "923466319114" ;          // DON'T REMOVE
-global.mztit = process.env.MZTIT ||"🅼♥︎❚❚♥︎🆉",               // ADD YOUR TITLE, ONE WORD WILL BE MORE BETTER
+global.sudo  =  process.env.SUDO || "923308363433" ;          // DON'T REMOVE
+global.mztit = process.env.MZTIT ||"U♥︎❚❚♥︎M",               // ADD YOUR TITLE, ONE WORD WILL BE MORE BETTER
 global.gurl  = 'https://www.youtube.com/@InnoxentTech?sub_confirmation=1' ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/03e49e6e2057568db8926.jpg' ;
 //=================================================================================
@@ -75,16 +75,16 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/03e49e6
 module.exports = {
 
   //==============================[COMPULSORY]=====================================
-  sessionName: process.env.SESSION_ID || '',              // PUT YOUR SESSION ID
-  botname: process.env.BOT_NAME       || 'sɪɢᴍᴀ-ᴍᴅ',         // ADD YOUR BOT NAME
-  ownername:  process.env.OWNER_NAME  || `ᴍᴀʜᴇʀ ᴢᴜʙᴀɪʀ`, // ADD YOUR NAME
+  sessionName: process.env.SESSION_ID || '24_07_2024_SIGMA_MD_NDp1rkLJ_MAHER_ZUBAIR',              // PUT YOUR SESSION ID
+  botname: process.env.BOT_NAME       || 'UMARI-ᴍᴅ',         // ADD YOUR BOT NAME
+  ownername:  process.env.OWNER_NAME  || `ISRAR UMARI`, // ADD YOUR NAME
   HANDLERS: process.env.PREFIX        || '.',              // ADD YOUR BOT PREFIX
   WORKTYPE: process.env.WORKTYPE      || 'public',      // IF PRIVATE ONLY YOU CAN USE YOUR BOT, IF PUBLIC EVERYONE CAN USE YOUR BOT
   //================================================================================
 
 
   //==============================[WHAT'SAPP FEATURES]==============================
-  author:  process.env.PACK_AUTHER  || 'ᴍᴀʜᴇʀ ᴢᴜʙᴀɪʀ',      // ADD YOUR STICKER AUTHOR NAME
+  author:  process.env.PACK_AUTHER  || 'ISRAR UMARI',      // ADD YOUR STICKER AUTHOR NAME
   status_view : process.env.AUTO_STATUS_VIEW   || 'false',    // IF IT TRUE IT AUTOMATICALLY VIEWS YOUR STATUSES
   status_saver : process.env.AUTO_STATUS_SAVER || 'false', // IF TRUE IT AUTOMATICALLY DOWNLOADS YOUR STATUSES AND SEND IN YOUR INBOX
   packname:  process.env.PACK_NAME  || "sɪɢᴍᴀ-ᴍᴅ" ,          // ADD YOUR STICKER PACKNAME
@@ -114,7 +114,7 @@ module.exports = {
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME,
   HEROKU_API_KEY: process.env.HEROKU_API_KEY,
   caption :process.env.CAPTION || "*• ѕιgмα-м∂ мυℓтι-∂єνι¢є*\n*• ωнαтѕαρρ вσт* ",
-  LANG: process.env.THEME || "SIGMA_MD",
+  LANG: process.env.THEME || "UMARI_MD",
   VERSION: process.env.VERSION || '𝚅.𝟷.𝟻.𝟹'
   //=================================================================================
 };
